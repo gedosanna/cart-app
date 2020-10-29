@@ -1,0 +1,30 @@
+.transition-enter {
+    opacity: 0;
+}
+.transition-enter-active {
+    opacity: 1;
+    transition: opacity 300ms;
+}
+.transition-exit {
+    opacity: 1;
+}
+.transition-exit-active {
+    opacity: 0;
+    // transition: opacity 300ms, transform 300ms;
+}
+
+.transition-longer-enter {
+    opacity: 0;
+}
+.transition-longer-enter-active {
+    opacity: 1;
+    transition: opacity 1000ms;
+}
+.transition-longer-exit {
+    opacity: 1;
+}
+.transition-longer-exit-active {
+    opacity: 0;
+    transition: opacity 500ms;
+}
+  

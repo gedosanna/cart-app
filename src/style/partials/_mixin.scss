@@ -1,0 +1,8 @@
+@mixin main-button {
+    background-color: $buttonsColor;
+    border: 0;
+    color: $greyLightestColor;
+    height: 3rem;
+    letter-spacing: 0.04rem;
+    padding: 0 1rem;
+}
